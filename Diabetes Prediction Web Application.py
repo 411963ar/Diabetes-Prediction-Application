@@ -9,7 +9,7 @@ import numpy as np  # for numpy arrays
 import pickle  #for loading and saving model
 import streamlit as st   # for graphical user interface,web application
 # loading the saved file
-file_load= pickle.load(open("C:/Users/hp/OneDrive/Desktop/Diabetes prediction/model_trained.sav",'rb'))
+file_load= pickle.load(open("model_trained.sav",'rb'))
 # defining a function for prediction
 
 def diabetes_prediction(input_data):
