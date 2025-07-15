@@ -7,7 +7,7 @@ Created on Tue Jul 15 21:34:31 2025
 
 import numpy as np
 import pickle
-file_load= pickle.load(open("C:/Users/hp/OneDrive/Desktop/Diabetes prediction/model_trained.sav",'rb'))
+file_load= pickle.load(open("model_trained.sav",'rb'))
 input_data=(10,168,74,0,0,38,0.537,34)
 #converting data into numpy array for efficient processing
 input_data_as_numpy_array= np.asarray(input_data)
